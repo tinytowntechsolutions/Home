@@ -1,39 +1,30 @@
 # Tiny Town Tech Solutions
 
-Official website for **Tiny Town Tech Solutions** (`tttsolutions.github.io`) — a dedicated full-service web partner for small and local businesses.
+Official website for **Tiny Town Tech Solutions** (`tttsolutions.github.io`) — Dedicated Web Partner for Small Businesses.
 
 ---
 
-## 🌟 What We Do
-- **Custom Website Creation**: Mobile-first, speed-optimized, modern web design tailored to small business growth.
-- **Proactive Upkeep & Security**: 24/7 monitoring, daily automated cloud backups, SSL renewals, and maintenance.
-- **On-Demand Content Edits**: Fast turnaround (under 24h) for text, photos, menu items, price updates, and announcements.
-- **Zero-Headache Managed Hosting**: High-speed CDN cloud hosting, domain DNS management, and custom emails.
+## 🌟 The Offer: Flat $400 / Month
+One simple, all-inclusive subscription for small businesses:
+- **Free Custom 5-Page Website Build ($0 Down)**: Handcrafted from scratch (e.g. Home, About, Services/Menu, Gallery/Work, Contact).
+- **Up to 5 Hours of Monthly Website Edits**: Text updates, new photos, menu changes, seasonal promotions, price updates, banners, and local SEO adjustments.
+- **Ultra-Fast Managed Cloud Hosting & Free SSL**: 99.9% uptime, fast CDN delivery, daily automated backups, and security monitoring.
+- **Direct 1-on-1 Support**: Text or email your webmaster directly whenever you need anything.
+- **Zero Lock-In**: Month-to-month, cancel anytime.
 
 ---
 
 ## 🛠️ Tech Architecture
-- **Zero-Dependency Static Build**: Pure semantic HTML5, modern CSS3 (Custom properties, grid, flexbox, glassmorphism), and Vanilla JavaScript (ES6+).
-- **GitHub Pages Ready**: Instant zero-build deployment.
-- **Interactive Tools Included**:
-  - Custom Project & Care Cost Estimator
-  - Responsive Multi-category Portfolio Mockup Showcase
-  - Interactive FAQ Accordion
-  - Free Website Audit & Consultation Request Form
-  - Mobile Off-Canvas Navigation
+- **Pure Static HTML5 & CSS3 & Vanilla ES6 JS**: Zero external dependencies, blazing fast performance, instant GitHub Pages deployment.
+- **Modern Glassmorphic Dark Design System**: Clean typography (Plus Jakarta Sans & JetBrains Mono), emerald & cyan gradient accents, fluid responsiveness.
+- **Interactive Features**: FAQ Accordion, Responsive Mobile Drawer, Intake Signup Form.
 
 ---
 
 ## 🚀 How to Run Locally
 
-Simply open `index.html` in any web browser, or launch a local server:
+Open `index.html` in any modern web browser or start a local server:
 
-```bash
-# Using Python
+```powershell
 python -m http.server 8000
-
-# Or using Node / npx
-npx serve .
 ```
-
-Visit `http://localhost:8000` in your browser.
