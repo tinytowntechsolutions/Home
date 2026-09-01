@@ -1,6 +1,6 @@
 # Tiny Town Tech Solutions
 
-Official website for **Tiny Town Tech Solutions** (`tttsolutions.github.io`) — Dedicated Web Partner for Small Businesses.
+Official website for **Tiny Town Tech Solutions** (`https://tinytowntechsolutions.github.io/Home/`) — Dedicated Web Partner for Small Businesses.
 
 ---
 
