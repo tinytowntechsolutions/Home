@@ -592,38 +592,42 @@
 
         <!-- Right: Intake Form -->
         <div class="contact-form-col">
-          <form class="contact-form" id="signup-form">
+          <form class="contact-form" id="signup-form" action="https://formsubmit.co/tinytowntechsolutions@gmail.com" method="POST">
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_subject" value="New $400/mo Website Client Signup - Tiny Town Tech Solutions">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
             
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Your Name *</label>
-                <input type="text" id="name" class="form-control" placeholder="Jane Doe" required>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Jane Doe" required>
               </div>
               <div class="form-group">
                 <label for="email">Email Address *</label>
-                <input type="email" id="email" class="form-control" placeholder="jane@example.com" required>
+                <input type="email" id="email" name="email" class="form-control" placeholder="jane@example.com" required>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
                 <label for="business">Business Name *</label>
-                <input type="text" id="business" class="form-control" placeholder="e.g. Pine Ridge Bakery" required>
+                <input type="text" id="business" name="business" class="form-control" placeholder="e.g. Pine Ridge Bakery" required>
               </div>
               <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" class="form-control" placeholder="(555) 000-0000">
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(555) 000-0000">
               </div>
             </div>
 
             <div class="form-group">
               <label for="message">Tell Us About Your Business & 5 Pages Needed</label>
-              <textarea id="message" class="form-control" placeholder="What services do you offer? What are your main goals for your new website?"></textarea>
+              <textarea id="message" name="message" class="form-control" placeholder="What services do you offer? What are your main goals for your new website?"></textarea>
             </div>
 
             <div id="form-status-msg" class="form-status"></div>
 
-            <button type="submit" class="btn btn-emerald btn-lg" style="width: 100%;">
+            <button type="submit" id="submit-btn" class="btn btn-emerald btn-lg" style="width: 100%;">
               <span>Get Started ($400/mo &bull; $0 Down)</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <line x1="22" y1="2" x2="11" y2="13"></line>
